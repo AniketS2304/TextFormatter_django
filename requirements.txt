@@ -1,0 +1,9 @@
+Django>=4.2,<5.0
+djangorestframework>=3.14
+django-crispy-forms>=2.0
+django-filter>=23.2
+psycopg2-binary>=2.9     # Only if using PostgreSQL
+gunicorn>=21.2           # For production (optional)
+whitenoise>=6.6          # Static file serving in production
+python-decouple>=3.8     # Environment variable management
+Pillow>=10.0             # ImageField support
