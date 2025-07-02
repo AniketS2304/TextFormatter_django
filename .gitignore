@@ -1,0 +1,51 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django-related
+*.log
+*.pot
+*.pyc
+db.sqlite3
+media/
+staticfiles/
+.env
+.env.*
+
+# VSCode or other IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# pipenv or poetry
+Pipfile.lock
+poetry.lock
+
+# Compiled files
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Migrations (optional: keep if you're not managing DB schema yet)
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# MyPy and others
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Static build (if using collectstatic)
+static/
