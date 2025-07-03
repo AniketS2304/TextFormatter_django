@@ -128,3 +128,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://2993-2401-4900-52fc-47ff-81bb-afb4-972e-dafd.ngrok-free.app'
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]  # since your folder is named static
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')    # for deployment
